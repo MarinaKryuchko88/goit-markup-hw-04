@@ -162,8 +162,11 @@ html {
 .our-team .item {
   width: calc((100%-30px * 3) / 4);
   border: 1px solid #f5f4fa;
+
   background: #ffffff;
+
   border-radius: 0px 0px 4px 4px;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   height: 428px;
@@ -298,8 +301,7 @@ a {
   background-color: var(--secondary-color);
 }
 
-.accent-text,
-.nav-menu .current-link {
+.accent-text {
   color: var(--accent-color);
 }
 
@@ -318,7 +320,8 @@ a {
 .links-header .link:hover,
 .links-header .link:focus,
 .links-footer :hover,
-.links-footer :focus {
+.links-footer :focus,
+.nav-menu .current-link {
   color: var(--accent-color);
 }
 
