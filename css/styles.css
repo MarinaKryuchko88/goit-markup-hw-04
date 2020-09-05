@@ -9,6 +9,7 @@ html {
   --secondary-color: #2f303a;
   --accent-color: #2196f3;
   --background-color: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 
 /* Ширина контейнера всей страницы 1170px + по 15рх с обеих сторон (паддинг страницы) = 1200рх*/
@@ -101,6 +102,104 @@ html {
   padding-right: 32px;
   padding-left: 32px;
   justify-content: space-between;
+}
+
+.our-clients .icon-client-1 {
+  width: 44px;
+  height: 49px;
+  fill: #afb1b8;
+}
+
+.our-clients .icon-client-2 {
+  width: 40px;
+  height: 52px;
+  fill: #afb1b8;
+}
+
+.our-clients .icon-client-3 {
+  width: 41px;
+  height: 42.6px;
+  fill: #afb1b8;
+}
+
+.our-clients .icon-client-4 {
+  width: 80px;
+  height: 42px;
+  fill: #afb1b8;
+}
+
+.our-clients .icon-client-5 {
+  width: 59px;
+  height: 47px;
+  fill: #afb1b8;
+}
+
+.our-clients .icon-client-6 {
+  width: 88px;
+  height: 45px;
+  fill: #afb1b8;
+}
+
+.our-clients .blok-client:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-clients .blok-client {
+  width: calc((100%-30px * 5) / 6);
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+}
+
+.our-clients .title {
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.our-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.our-clients .item-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 63px;
+  padding-left: 63px;
+}
+
+.our-clients .item-2 {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-right: 65px;
+  padding-left: 65px;
+}
+
+.our-clients .item-3 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 65px;
+  padding-left: 65px;
+}
+
+.our-clients .item-4 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 45px;
+  padding-left: 45px;
+}
+
+.our-clients .item-5 {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-right: 56px;
+  padding-left: 56px;
+}
+
+.our-clients .item-6 {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-right: 41px;
+  padding-left: 41px;
 }
 
 /* ОФОРМЛЕНИЕ ГЕОМЕТРИИ СТРАНИЦ */
@@ -203,7 +302,6 @@ html {
 
 .our-team .item {
   width: calc((100%-30px * 3) / 4);
-  border: 1px solid #f5f4fa;
 
   background: #ffffff;
 
