@@ -33,9 +33,38 @@ html {
   align-items: center;
 }
 
-.link-icon:hover,
-.link-icon:focus {
+.links-header .link-icon:hover .icon-envelope,
+.links-header .link-icon:focus .icon-envelope,
+.links-header .link-icon:hover .icon-smartphone,
+.links-header .link-icon:focus .icon-smartphone {
   fill: var(--accent-color);
+}
+
+.section-hero {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.6),
+      rgba(47, 48, 58, 0.6)
+    ),
+    url(../images/photo-hero-optimiz.jpg);
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features .icon {
+  width: 70px;
+  height: 70px;
+}
+
+.blok-icon {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 .our-team .icon {
@@ -141,9 +170,22 @@ html {
   margin-right: 30px;
 }
 
+.features .paragraf {
+  margin: 0;
+}
+
+.features .title-text {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
 .features,
 .our-work {
   padding-top: 94px;
+}
+
+.our-work {
+  padding-bottom: 94px;
 }
 
 .our-work .title-text {
