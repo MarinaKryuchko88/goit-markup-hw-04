@@ -21,12 +21,14 @@ html {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .links-header .icon-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .links-header .link {
@@ -34,10 +36,8 @@ html {
   align-items: center;
 }
 
-.links-header .link-icon:hover .icon-envelope,
-.links-header .link-icon:focus .icon-envelope,
-.links-header .link-icon:hover .icon-smartphone,
-.links-header .link-icon:focus .icon-smartphone {
+.links-header .link:hover,
+.links-header .link:focus {
   fill: var(--accent-color);
 }
 
