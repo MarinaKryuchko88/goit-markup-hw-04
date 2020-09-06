@@ -148,6 +148,48 @@ html {
   border: 1px solid var(--accent-color);
 }
 
+.section-footer .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.section-footer .list-icon {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-footer .social-link {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.section-footer .icon {
+  fill: #ffffff;
+}
+
+.section-footer .blok-links {
+  margin-left: 70px;
+  width: 206px;
+  height: 80px;
+}
+
+.section-footer .social-link:hover,
+.section-footer .social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.section-footer .social-link:hover .icon,
+.section-footer .social-link:focus .icon {
+  fill: #fff;
+}
+
 /* ОФОРМЛЕНИЕ ГЕОМЕТРИИ СТРАНИЦ */
 .container {
   width: 1200px;
@@ -451,6 +493,8 @@ a {
 .button:focus {
   color: var(--main-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .text-nav .link,
