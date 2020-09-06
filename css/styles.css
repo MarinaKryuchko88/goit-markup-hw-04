@@ -319,8 +319,8 @@ html {
 }
 
 .section-footer .container {
-  padding-top: 64px;
-  padding-bottom: 56px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .section-footer .address-footer {
@@ -368,6 +368,12 @@ html {
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
+}
+
+.cards .item:hover,
+.cards .item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .cards .item:nth-child(3n) {
