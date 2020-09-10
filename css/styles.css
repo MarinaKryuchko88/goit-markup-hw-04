@@ -99,9 +99,8 @@ html {
 
 .our-team .list-icon {
   list-style: none;
-  padding-right: 32px;
-  padding-left: 32px;
-  justify-content: space-between;
+  padding: 0;
+  justify-content: center;
 }
 
 .our-clients .list-clients {
@@ -125,8 +124,8 @@ html {
 }
 
 .our-clients .title {
-  margin: 0;
-  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .our-clients {
@@ -217,18 +216,18 @@ html {
   display: flex;
 }
 
-.header .flexbox {
+.header .nav-list,
+.header .links-header {
   align-items: center;
-  justify-content: flex-end;
 }
 
 .nav-menu {
   margin-right: auto;
 }
 
-.header .link {
-  padding-top: 32px;
-  padding-bottom: 32px;
+.header .container {
+  height: 80px;
+  align-items: center;
 }
 
 .header .mail {
@@ -240,9 +239,10 @@ html {
 } */
 
 .section-hero .container {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
 }
 
 .section-hero .text-hero {
@@ -275,9 +275,8 @@ html {
   padding-bottom: 94px;
 }
 
-.our-work .title-text {
-  margin-top: 0px;
-  margin-bottom: 0px;
+.our-work .title {
+  margin: 0px;
 }
 
 .our-work .list {
